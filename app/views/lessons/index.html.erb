@@ -1,9 +1,14 @@
 <div class="container text-center">
   <div class="row">
     <h1>All lessons</h1>
+
+    <p>
+      <%= link_to "Back to home", root_path, class: "btn btn-primary"%>
+    </p>
+
     <ul>
       <% @lessons.each do |lesson| %>
-      <li><%= lesson.name %> (<%= lesson.level %>)</li>
+      <li> <%= link_to lesson.name, lesson_path(lesson) %> <%= lesson.level %></li>
       <% end %>
     </ul>
   </div>

@@ -2,5 +2,8 @@
   <class class="row">
     <h1><%= @lesson.name %></h1>
     <h2><%= @lesson.level %></h2>
+    <p>
+      <%= link_to "Go back to index", lessons_path, class: "btn btn-primary" %>
+    </p>
   </class>
 </class>
