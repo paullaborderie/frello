@@ -8,4 +8,4 @@
 
 Lesson.new(name: "Que vas-tu faire aujourd'hui?", tagline: "In this video Lucile tells about her typical day.", level: "beginner", category: "lifestyle", url: "https://vimeo.com/166684802")
 Lesson.new(name: "Que vas-tu faire à manger?", tagline: "In this video Louis talks about how to make a tasty dish.", level: "beginner", category: "food", url: "https://vimeo.com/166807739")
-Lesson.new(name: "Qu'est-ce que tu aimes? QU'est-ce que tu n'aimes pas", tagline: "Theo talks about what he likes and dislikes doing.", level: "beginner", category: "taste", url: "https://vimeo.com/155077987")
+Lesson.new(name: "Qu'est-ce que tu aimes? Qu'est-ce que tu n'aimes pas", tagline: "Theo talks about what he likes and dislikes doing.", level: "beginner", category: "taste", url: "https://vimeo.com/155077987")
